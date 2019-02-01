@@ -14,10 +14,13 @@
   </div>
   <div>
     <form id="survey-form" action="index.html" method="post">
-      Name:   <input type="text" id="name" name="name" placeholder="Enter Your Name"><br>
-      Email:  <input type="email" id="email" name="email" placeholder="Enter Your Email Address"><br>
-      Age<input type="number" id="number" name="phonenumber" placeholder="Enter Phone Number" min="18" max="100"><br>
-      Which option best describe your current role?
+      Name:
+      <input type="text" id="name" name="name" placeholder="Enter Your Name">
+      <br> Email:
+      <input type="email" id="email" name="email" placeholder="Enter Your Email Address">
+      <br> Age
+      <input type="number" id="number" name="phonenumber" placeholder="Enter Phone Number" min="18" max="100">
+      <br> Which option best describe your current role?
       <select id="dropdown">
         <option value="Student">Student</option>
         <option value="Full Time Job">Full Time Job</option>
@@ -26,6 +29,20 @@
         <option value="Other">Other</option>
       </select>
       <br>
+      <div>
+        <input type="radio" id="huey" name="drone" value="huey" checked>
+        <label for="huey">Huey</label>
+      </div>
+
+      <div>
+        <input type="radio" id="dewey" name="drone" value="dewey">
+        <label for="dewey">Dewey</label>
+      </div>
+
+      <div>
+        <input type="radio" id="louie" name="drone" value="louie">
+        <label for="louie">Louie</label>
+      </div>
 
     </form>
   </div>
