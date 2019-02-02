@@ -1,4 +1,36 @@
-#header {
+.font{
 	font-family: 'Nunito', sans-serif;
-	font font-weight: bold;
+	font-weight: bold;
+}
+.main{
+	background-color: #e9ecef;
+	font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+#footer{
+	font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+	background-color: #007bff;
+	text-align: center;
+	color: white;
+	padding: 15px;
+}
+
+a{
+	color: #007bff;
+}
+.profile{
+	border: 5px solid #007bff;
+	border-radius: 50%;
+}
+img{
+	margin: 100px;
+}
+
+#head{
+	display: flex;
+  justify-content: center;
+	background-color: #e9ecef;
+	margin: auto;
 }
